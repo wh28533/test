@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> Dr.Near - Login </title>
+        <link href="../../css/login_styles.css" rel="stylesheet" />
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="https://accounts.google.com/gsi/client" async defer></script>		
+    </head>
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">Dr.NEAR</a>        
+    </nav>
+
+    <body>
+        <div class="card">
+            <div class="card-header"> <h3>Are you ready?</h3> </div>
+            
+            <div class="card-body">
+                    <div class="form-floating">
+                        <input class="form-control" name="email" id="login-email" type="email" placeholder="name@example.com" />
+                        <label for="login-email">E-mail</label>
+                    </div>
+                    <div class="form-floating">
+                        <input class="form-control" name="password" id="login-password" type="password" placeholder="Password" />
+                        <label for="login-password">Password</label>
+                    </div>
+                    <a class="a-gray" href="reset-pw-01.html">Forgot your password?</a>
+                
+            </div>
+            <div class="card-footer">
+           	 	<div class="buttons">
+	                <button class="btn red-btn" id="login-button">Log in</button>
+	                or			
+					<div id="buttonDiv"></div>
+				    
+				    
+	            </div>
+                <div class="small">New user? <a class="a-blue" href="register-email.html"> Create an account </a></div>
+            </div>
+         
+        </div>
+        <script type="module" src="../../js/login_scripts.js"></script>
+    </body>
+</html>
